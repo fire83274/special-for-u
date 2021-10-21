@@ -1,0 +1,284 @@
+html {
+    
+           background: url(../Assets/Home/Фон.jpg) no-repeat center center fixed;
+    
+           -webkit-background-size: cover;
+    
+           -moz-background-size: cover;
+    
+           -o-background-size: cover;
+    
+           background-size: cover;
+    
+    }
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    line-height: 1.6;    
+    color: rgb(78, 15, 4);
+}
+
+.menu
+{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin: 10px auto 0px;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(78, 15, 4);
+
+}
+
+.container0 
+{
+    display: flex;
+    width: 50%;
+    margin: 5% auto 0px;
+    justify-content: center;
+   
+}
+
+.container1 
+{
+    display: flex;
+    width: 50%;
+    margin: 5% auto 0px;
+    justify-content: center;
+   
+}
+
+.container2
+{
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+    
+    
+}
+
+.container3 
+{
+    display: flex;
+    width: 50%;
+    margin: 5% auto 0px;
+    justify-content: right;
+   
+}
+
+.next
+{
+    width: 150px;
+  height: 30px;
+  text-decoration: none;
+  padding-top: 9px;
+  color: rgb(78, 15, 4);
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font: normal 17px arial;
+  background-image: linear-gradient(to bottom right, rgb(207, 12, 77), #9370db,pink);
+}
+
+.next:hover
+{
+    color: silver;
+}
+
+ .container1 div , .container2 div
+{
+
+  border: 1px solid silver;   
+ 
+}
+
+
+
+.box
+{
+    flex: 1;
+ 
+    
+}
+
+.box-1-1
+{
+    flex: 2;
+    
+}
+
+.box-1-2
+{
+    flex: 1;
+}
+
+.box-2-1
+{
+    flex: 1;
+}
+.box-2-2
+{
+    flex: 2;
+}
+
+.img1
+{
+    width: 70%;
+    margin: auto;
+    display:block;
+}
+
+.box1-1, .box1-2
+{
+    margin: 1% auto 0px;    
+    width: 55%;
+    margin: auto;
+    display:block;
+}
+
+
+.container-pers
+{
+    display: flex;
+    width: 70%;
+    margin: 5% auto 0px;
+    
+}
+
+.container-pers2
+{
+    display: flex;
+    width: 65%;
+    margin: 1% auto 0px;
+    justify-content: space-around;
+}
+
+
+.container-stat0
+{
+    display: flex;
+    width: 65%;
+    margin: 1% auto 0px;
+  
+}
+
+
+.container-stat1
+{
+    display: flex;
+    width: 45%;
+    margin: 1% auto 0px;
+
+}
+
+.container-stat2
+{
+    display: flex;
+    width: 45%;
+    margin: 1% auto 0px;
+   
+}
+
+.box-img
+{
+    width: 60%;
+    margin: auto;
+    display: block;
+    transition:width 0.5s ease;
+}
+.box-img:hover
+{
+    width: 120%;
+    margin: auto;
+    display: block;
+   
+}
+
+
+.flex
+{
+    flex: 1;
+}
+
+.container-quest
+{
+    display: flex;
+    width: 65%;
+    margin: 1% auto 0px;
+   
+}
+
+.box-quest
+{
+    width: 63%;
+    margin: auto;
+    display: block;
+}
+
+
+.quest
+{
+   
+    margin: 0% auto ;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.quest-in1
+{
+     font-size: 72px;
+     display: block;
+     margin: auto;
+}
+
+.about1
+{
+    width: 65%;
+    margin: 0.75% auto ;
+    display: flex;   
+    
+}
+
+.about-in1
+{
+    width: 50%;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+}
+
+.about2
+{
+    width: 65%;
+    margin: 0.75% auto ;
+    display: flex;   
+    
+}
+
+.about-in2
+{
+    width: 81%;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+    transition:width 0.5s ease;
+}
+
+.about-in2:hover
+{
+    width: 120%;
+    
+}
+
+
+
+
+    
